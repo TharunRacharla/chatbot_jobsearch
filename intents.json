@@ -1,0 +1,101 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hello",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Namaste"
+        ],
+        "responses": [
+          "Namaste! How can I assist you with your job search today in India?",
+          "Hello there! What type of IT job are you looking for?",
+          "Good day! How can I help you find a job in the tech industry?"
+        ]
+      },
+      {
+        "tag": "job_search",
+        "patterns": [
+          "I need a job in IT",
+          "Help me find a software developer position",
+          "I'm looking for IT job opportunities",
+          "Are there any IT job openings?"
+        ],
+        "responses": [
+          "Sure, what specific IT role are you interested in? Developer, system analyst, network administrator?",
+          "I can help with that. Which city are you considering for your IT job search—Bangalore, Hyderabad, Pune?"
+        ]
+      },
+      {
+        "tag": "location_based_search",
+        "patterns": [
+          "Tech jobs in Bangalore",
+          "Any IT openings in Pune?",
+          "Find software jobs near Delhi",
+          "Who is hiring IT professionals in Hyderabad?"
+        ],
+        "responses": [
+          "I’ll check the latest IT job listings in Bangalore. Are you looking for entry-level or senior positions?",
+          "There are several IT job openings in Pune. Are you interested in startups or established companies?"
+        ]
+      },
+      {
+        "tag": "industry_specific_search",
+        "patterns": [
+          "I need a cloud computing job",
+          "Are there any cybersecurity roles?",
+          "Show me AI job listings",
+          "Database management jobs"
+        ],
+        "responses": [
+          "Cloud computing roles are in high demand. Do you prefer working with AWS, Azure, or Google Cloud?",
+          "Cybersecurity is crucial these days. Are you looking for a role in threat analysis or network security?"
+        ]
+      },
+      {
+        "tag": "application_process",
+        "patterns": [
+          "How do I apply?",
+          "Can you help me with the application?",
+          "What's the application procedure?",
+          "Guide me through applying for a job"
+        ],
+        "responses": [
+          "I can guide you through the application process. Typically, you'll need to submit a resume and cover letter. Do you need help with these?",
+          "Sure, to apply, click on the job link I provide, and it will take you to the company's application page. Do you need specific instructions for any job?"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "How does this work?",
+          "What can you do?",
+          "Help me",
+          "I need assistance",
+          "Explain how you assist in job hunting"
+        ],
+        "responses": [
+          "I can help you search for jobs based on industry, location, or both. You can ask me about specific roles, companies, or even application tips.",
+          "Just let me know what kind of job you're looking for or where you want to work, and I'll provide you with relevant job listings and application advice."
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "That's all, thanks",
+          "Thanks for your help"
+        ],
+        "responses": [
+          "Goodbye! Feel free to return if you need more help with your job search.",
+          "See you! Wishing you the best in landing your ideal IT job."
+        ]
+      }
+    ]
+  }
+  
